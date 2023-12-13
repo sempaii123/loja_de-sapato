@@ -1,5 +1,5 @@
 {
-  "name": "loja_de_sapatos",
+  "name": "loja_de_sapato",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -13,6 +13,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "fastify": "^4.24.3"
+    "fastify": "^4.25.0"
   }
 }

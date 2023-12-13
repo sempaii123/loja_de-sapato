@@ -1,32 +1,31 @@
-POST http://localhost:3333/localhost:3333/tenis
+POST http://localhost:3333/tenis
 Content-Type: application/json
 
 {
-    "modelo": "jordan TENIS:",
-    "marca": "nike:",
-    "pares": 1000 
-
+    "modelo": "Tenis",
+    "marca": "Marca01",
+    "pares": 1000
 }
 
-###NPM
+###
 
-GET http://localhost:3333/localhost:3333/tenis
+GET http://localhost:3333/tenis
 
 ###
 
-GET http://localhost:3333/tenis?search=tenis
+GET http://localhost:3333/tenis?search=Jordan
 
 ###
 
-PUT http://localhost:3333/tenis/5aea1252-ee29-4cae-9bc3-04f330403d85
-Content-Type: application/json 
+PUT http://localhost:3333/tenis/013211c5-a086-4280-94a1-3f129f68a686
+Content-Type: application/json
 
 {
-    "modelo": "adi2000",
-    "marca": "adidas",
+    "modelo": "Jordan",
+    "marca": "Nike",
     "pares": 200
 }
 
 ###
 
-DELETE http://localhost:3333/localhost:3333/tenis/5aea1252-ee29-4cae-9bc3-04f330403d85
+DELETE http://localhost:3333/tenis/013211c5-a086-4280-94a1-3f129f68a686
